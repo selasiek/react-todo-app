@@ -37,6 +37,6 @@ const btnStyle = {
 
 //Proptypes     
 TodoItem.Proptypes = {
-    todo: Proptypes.object.isRequired
+    todo: Proptypes.object.isRequired //todo is an object within the 'todos' array of objects
   }
 export default TodoItem;

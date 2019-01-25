@@ -18,6 +18,6 @@ class Todos extends Component {
 
 //Proptypes
 Todos.Proptypes = {
-  todos: Proptypes.array.isRequired
+  todos: Proptypes.array.isRequired //todos is an array containing objects of todos
 }
 export default Todos;
